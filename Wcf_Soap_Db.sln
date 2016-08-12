@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoTest", "RepoTest\RepoTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLService", "NHLService\NHLService.csproj", "{D98A393B-B107-4EC2-A82C-F6B782FD2813}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLServiceHost", "NHLServiceHost\NHLServiceHost.csproj", "{C18D0A88-39D8-4B40-8832-A46D095C5BF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLServiceClient", "NHLServiceClient\NHLServiceClient.csproj", "{941A024B-E727-4369-B41B-F3C65215026D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18D0A88-39D8-4B40-8832-A46D095C5BF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18D0A88-39D8-4B40-8832-A46D095C5BF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18D0A88-39D8-4B40-8832-A46D095C5BF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18D0A88-39D8-4B40-8832-A46D095C5BF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{941A024B-E727-4369-B41B-F3C65215026D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{941A024B-E727-4369-B41B-F3C65215026D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{941A024B-E727-4369-B41B-F3C65215026D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{941A024B-E727-4369-B41B-F3C65215026D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
