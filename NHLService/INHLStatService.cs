@@ -1,11 +1,10 @@
-﻿using System.Runtime.Serialization;
-using System.ServiceModel;
+﻿using System.ServiceModel;
 
 namespace NHLService
 {
 
     [ServiceContract]
-    public interface INHLService
+    public interface INHLStatService
     {
         [OperationContract]
         System.Collections.Generic.List<MatchData> GetAllMatches();
