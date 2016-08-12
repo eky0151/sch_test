@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{C57775A7-444A-46E1-B5F4-61ADDF3289B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepoTest", "RepoTest\RepoTest.csproj", "{F4333860-1C7F-44EC-BA4B-5475FC809D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHLService", "NHLService\NHLService.csproj", "{D98A393B-B107-4EC2-A82C-F6B782FD2813}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C57775A7-444A-46E1-B5F4-61ADDF3289B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C57775A7-444A-46E1-B5F4-61ADDF3289B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C57775A7-444A-46E1-B5F4-61ADDF3289B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C57775A7-444A-46E1-B5F4-61ADDF3289B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4333860-1C7F-44EC-BA4B-5475FC809D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4333860-1C7F-44EC-BA4B-5475FC809D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4333860-1C7F-44EC-BA4B-5475FC809D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4333860-1C7F-44EC-BA4B-5475FC809D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D98A393B-B107-4EC2-A82C-F6B782FD2813}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
