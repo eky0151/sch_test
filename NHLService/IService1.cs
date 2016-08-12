@@ -1,41 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
+﻿using System.Runtime.Serialization;
 using System.ServiceModel;
-using System.Text;
 
 namespace NHLService
 {
-    
+
     [ServiceContract]
-    public interface IService1
+    public interface INHLService
     {
         [OperationContract]
-        string GetData(int value);
+        System.Collections.Generic.List<MatchData> GetAllMatches();
 
         [OperationContract]
-        CompositeType GetDataUsingDataContract(CompositeType composite);
-    }
-
-    [DataContract]
-    public class CompositeType
-    {
-        bool boolValue = true;
-        string stringValue = "Hello ";
-
-        [DataMember]
-        public bool BoolValue
-        {
-            get { return boolValue; }
-            set { boolValue = value; }
-        }
-
-        [DataMember]
-        public string StringValue
-        {
-            get { return stringValue; }
-            set { stringValue = value; }
-        }
+        System.Collections.Generic.List<GlobalResults> GetAllResults();
     }
 }
